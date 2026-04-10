@@ -1,0 +1,10 @@
+[package]
+name = "mpmc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bench]]
+name = "throughput"
+harness = false
